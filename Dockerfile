@@ -1,7 +1,7 @@
 ##################################
 # Stage 1: Build Stage
 ##################################
-FROM node:18-alpine AS builder
+FROM node:22-alpine AS builder
 
 # Add metadata for authorship and app identification
 LABEL maintainer="Mst Naher <naherdevops@gmail.com>" \
