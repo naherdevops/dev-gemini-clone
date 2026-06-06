@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: gemini
-        image: chowdhurypoly/gemini-clone: latest
+        image: chowdhurypoly/gemini-clone:latest
         ports:
         - containerPort: 3000
         resources:
